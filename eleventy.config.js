@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/admin/config.yml");
 
   // Auto-generate a 3 sentence excerpt from a post's rendered HTML content
   eleventyConfig.addFilter("excerpt", function(content) {

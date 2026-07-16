@@ -1,0 +1,75 @@
+backend:
+  name: github
+  repo: straventis/blogPosts
+  branch: main
+  # TODO: replace with the real Cloudflare Worker URL once the OAuth proxy
+  # task is complete. Decap CMS cannot log you in without this.
+  base_url: https://REPLACE-WITH-YOUR-WORKER-URL.workers.dev
+  auth_endpoint: auth
+
+media_folder: "src/assets/posts"
+public_folder: "/assets/posts"
+
+publish_mode: simple
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "src/posts"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    editor:
+      preview: true
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post.njk" }
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The post's headline"
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        default: ""
+
+      - label: "Topic"
+        name: "topic"
+        widget: "select"
+        options:
+          - "Platform Thinking"
+          - "Career Reflection"
+          - "Artificial Intelligence"
+          - "AI or ML"
+          - "Industry News"
+          - "Personal Story"
+        hint: "The single content pillar this post falls under"
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: []
+        hint: "Short keywords, comma separated entries, e.g. AI, Smart Home"
+
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        default: "Santhosh Thiruchendru"
+
+      - label: "Cover Image"
+        name: "cover"
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+        hint: "Roughly square works best, shown at 100x100 on the blog listing"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        hint: "Drag and drop images directly into the editor"
