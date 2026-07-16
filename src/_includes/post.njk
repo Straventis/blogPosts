@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+<p class="eyebrow">{{ topic }}</p>
+<h1 class="page-title">{{ title }}</h1>
+<p class="page-meta">{{ date | readableDate }} · {{ author }}{% if tags %} · {{ tags | join(", ") }}{% endif %}</p>
+
+{% if cover %}
+<img src="{{ cover }}" alt="{{ title }}" style="width:100%;max-height:320px;object-fit:cover;">
+{% endif %}
+
+{{ content | safe }}
+
+<p style="margin-top:48px;"><a href="/">&larr; Back to all posts</a></p>

@@ -1,0 +1,129 @@
+---
+layout: base.njk
+title: "Blog"
+description: "Straventis Advisory Group blog"
+---
+
+<p class="eyebrow">Straventis</p>
+<h1 class="page-title">Blog</h1>
+
+<div class="view-toggle">
+  <button class="view-btn active" data-view="panel" type="button">Panel view</button>
+  <button class="view-btn" data-view="list" type="button">List view</button>
+</div>
+
+<div class="post-collection" id="post-collection" data-view="panel">
+
+  {% for post in collections.posts %}
+  <a class="post-item" href="{{ post.url }}">
+
+    <img class="post-cover" src="{{ post.data.cover }}" alt="{{ post.data.title }}">
+
+    <div class="post-item-body">
+      <p class="post-topic">{{ post.data.topic }}</p>
+      <h2 class="post-title">{{ post.data.title }}</h2>
+      <p class="post-meta">{{ post.date | readableDate }} · {{ post.data.author }}</p>
+      {% if post.data.tags %}
+      <div class="post-tags">
+        {% for tag in post.data.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </div>
+      {% endif %}
+      <p class="post-excerpt">{{ post.templateContent | excerpt }}</p>
+    </div>
+
+  </a>
+  {% endfor %}
+
+</div>
+
+<style>
+  .view-toggle{
+    display:flex; gap:8px; margin-bottom:32px;
+  }
+  .view-btn{
+    font-family:var(--mono); font-size:12px; text-transform:uppercase; letter-spacing:0.06em;
+    padding:8px 16px; border-radius:20px; border:1px solid var(--line);
+    background:var(--surface); color:var(--ink-soft); cursor:pointer;
+    transition:all 0.15s ease;
+  }
+  .view-btn:hover{ border-color:var(--accent); color:var(--ink); }
+  .view-btn.active{ background:var(--accent); border-color:var(--accent); color:var(--bg); }
+
+  .post-collection{ display:flex; flex-direction:column; gap:0; }
+
+  .post-item{
+    display:grid; text-decoration:none; color:inherit;
+    border-top:1px solid var(--line); padding:24px 0;
+  }
+  .post-collection .post-item:first-child{ border-top:none; padding-top:0; }
+
+  .post-cover{ border-radius:8px; object-fit:cover; display:block; }
+
+  .post-topic{
+    font-family:var(--mono); font-size:11px; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 6px;
+  }
+  .post-title{
+    font-family:var(--display); font-weight:600; font-size:19px; letter-spacing:-0.01em;
+    margin:0 0 8px; line-height:1.3;
+  }
+  .post-meta{
+    font-family:var(--mono); font-size:12px; color:var(--ink-soft); margin:0 0 10px;
+  }
+  .post-tags{ display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px; }
+  .tag{
+    font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:0.04em;
+    background:var(--accent-soft); color:var(--accent); padding:3px 9px; border-radius:20px;
+  }
+  .post-excerpt{
+    font-size:14px; line-height:1.6; color:var(--ink-soft); margin:0;
+  }
+
+  /* ---------- Panel view (default) ---------- */
+  .post-collection[data-view="panel"] .post-item{
+    grid-template-columns:100px 1fr; gap:20px; align-items:start;
+  }
+  .post-collection[data-view="panel"] .post-cover{ width:100px; height:100px; }
+
+  /* ---------- List view ---------- */
+  .post-collection[data-view="list"] .post-item{
+    grid-template-columns:1fr; gap:0;
+  }
+  .post-collection[data-view="list"] .post-cover,
+  .post-collection[data-view="list"] .post-excerpt{ display:none; }
+  .post-collection[data-view="list"] .post-title{ font-size:17px; }
+
+  @media (max-width:600px){
+    .post-collection[data-view="panel"] .post-item{ grid-template-columns:1fr; }
+    .post-collection[data-view="panel"] .post-cover{ width:100px; height:100px; }
+  }
+</style>
+
+<script>
+  (function(){
+    var container = document.getElementById('post-collection');
+    var buttons = document.querySelectorAll('.view-btn');
+
+    function getStored(){
+      try { return localStorage.getItem('straventis-blog-view'); } catch(e){ return null; }
+    }
+    function setStored(val){
+      try { localStorage.setItem('straventis-blog-view', val); } catch(e){}
+    }
+
+    function setView(view){
+      container.setAttribute('data-view', view);
+      buttons.forEach(function(b){
+        b.classList.toggle('active', b.dataset.view === view);
+      });
+      setStored(view);
+    }
+
+    var stored = getStored();
+    if (stored) setView(stored);
+
+    buttons.forEach(function(btn){
+      btn.addEventListener('click', function(){ setView(btn.dataset.view); });
+    });
+  })();
+</script>
