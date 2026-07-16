@@ -10,7 +10,7 @@ backend:
 media_folder: "src/assets/posts"
 public_folder: "/assets/posts"
 
-publish_mode: simple
+publish_mode: editorial_workflow
 
 collections:
   - name: "posts"
