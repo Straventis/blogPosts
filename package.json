@@ -1,0 +1,24 @@
+{
+  "name": "straventis_web_pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eleventy.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Straventis/blogPosts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Straventis/blogPosts/issues"
+  },
+  "homepage": "https://github.com/Straventis/blogPosts#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}
