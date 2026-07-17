@@ -81,20 +81,12 @@ That verification gap, the space between “the agent shipped it” and “the o
 
 # References
 
-Axis Intelligence. (2026). *GitHub Copilot statistics 2026: Users, revenue, marketshare & AI coding data.* Retrieved July 2026, from <https://axis-intelligence.com/github-copilot-statistics/>
-
-Business Wire. (2025, November 13). *Cursor secures $2.3 billion Series D financing at$29.3 billion valuation to redefine how software is written.* Retrieved July2026, from <https://www.businesswire.com/news/home/20251113939996/en>
-
-Get Panto.(2026). *OpenAI statistics 2026: Users, revenue & market share.*Retrieved July 2026, from <https://www.getpanto.ai/blog/openai-statistics>
-
-Let's DataScience. (2026, April 21). *Cursor $2B funding round at $50B valuation.*Retrieved July 2026, from <https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation>
-
-Nerd LevelTech. (2026). *OpenCode: The open-source AI coding agent explained (2026).*Retrieved July 2026, from <https://nerdleveltech.com/opencode-open-source-ai-coding-agent-explained>
-
-OpenAI.(2026, June 25). *The shift to agentic AI: Evidence from Codex.* RetrievedJuly 2026, from <https://arxiv.org/html/2606.26959v1>
-
-Pinggy.(2026, May 25). *Best open source CLI coding agents in 2026.* RetrievedJuly 2026, from <https://pinggy.io/blog/best_open_source_cli_coding_agents/>
-
-TechCrunch.(2026, April 17). *Sources: Cursor in talks to raise $2B+ at $50B valuationas enterprise growth surges.* Retrieved July 2026, from <https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/>
-
-TechBriefly.(2026, July 1). *Codex use is spreading into knowledge work, OpenAI says.*Retrieved July 2026, from <https://techbriefly.com/2026/07/01/codex-use-is-spreading-into-knowledge-work-openai-says/>
+1. Axis Intelligence. (2026). *GitHub Copilot statistics 2026: Users, revenue, marketshare & AI coding data.* Retrieved July 2026, from <https://axis-intelligence.com/github-copilot-statistics/>
+2. Business Wire. (2025, November 13). *Cursor secures $2.3 billion Series D financing at$29.3 billion valuation to redefine how software is written.* Retrieved July2026, from <https://www.businesswire.com/news/home/20251113939996/en>
+3. Get Panto.(2026). *OpenAI statistics 2026: Users, revenue & market share.*Retrieved July 2026, from <https://www.getpanto.ai/blog/openai-statistics>
+4. Let's DataScience. (2026, April 21). *Cursor $2B funding round at $50B valuation.*Retrieved July 2026, from <https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation>
+5. Nerd LevelTech. (2026). *OpenCode: The open-source AI coding agent explained (2026).*Retrieved July 2026, from <https://nerdleveltech.com/opencode-open-source-ai-coding-agent-explained>
+6. OpenAI.(2026, June 25). *The shift to agentic AI: Evidence from Codex.* RetrievedJuly 2026, from <https://arxiv.org/html/2606.26959v1>
+7. Pinggy.(2026, May 25). *Best open source CLI coding agents in 2026.* RetrievedJuly 2026, from <https://pinggy.io/blog/best_open_source_cli_coding_agents/>
+8. TechCrunch.(2026, April 17). *Sources: Cursor in talks to raise $2B+ at $50B valuationas enterprise growth surges.* Retrieved July 2026, from <https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/>
+9. TechBriefly.(2026, July 1). *Codex use is spreading into knowledge work, OpenAI says.*Retrieved July 2026, from <https://techbriefly.com/2026/07/01/codex-use-is-spreading-into-knowledge-work-openai-says/>
