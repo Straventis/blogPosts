@@ -12,9 +12,9 @@ cover: /assets/posts/agentic-platform.png
 ---
 # The Rise of Agentic Software DevelopmentPlatforms
 
-*Economics, architecture, and the transition to autonomous codingin 2026*
+*Economics, architecture, and the transition to autonomous coding in 2026*
 
-Thesoftware development landscape is going through a real architectural shift thisyear. The industry is moving past simple AI code completion tools, the“copilots”, and converging on something bigger: autonomous “agentic” platformsthat don't just suggest code, they run the whole loop themselves. As thisscales, engineering workflows, cost structures, and enterprise risk are allmoving with it.
+The software development landscape is going through a real architectural shift this year. The industry is moving past simple AI code completion tools, the“copilots”, and converging on something bigger: autonomous “agentic” platforms that don't just suggest code, they run the whole loop themselves. As thisscales, engineering workflows, cost structures, and enterprise risk are all moving with it.
 
 ## What Is an Agentic Software Development Platform?
 
@@ -40,19 +40,16 @@ GitHubCopilot remains the widest distributed tool, with nearly 80% of new develo
 
 ## Cost: Platform Pricing vs. the Real Cost of Verification
 
-Pricingfor these tools spans a wide range depending on the harness and deploymentmodel:
+Pricing for these tools spans a wide range depending on the harness and deployment model:
 
-●     Entry level and opensource: Gemini CLI and OpenCode offerfree or open access, paying only for API usage. OpenAI's Codex “Go” tier startsat $8/month.
-
-●     Professional andenterprise tiers: Claude Code andCursor run roughly $20 to $100+/month depending on usage limits, with Cursor'stop “Ultra” tier reaching $200/month. Devin runs $20 for its Pro tier up to$200 for Max.
+* Entry level and opensource: Gemini CLI and OpenCode offerfree or open access, paying only for API usage. OpenAI's Codex “Go” tier startsat $8/month.
+* Professional and enterprise tiers: Claude Code andCursor run roughly $20 to $100+/month depending on usage limits, with Cursor'stop “Ultra” tier reaching $200/month. Devin runs $20 for its Pro tier up to$200 for Max.
 
 Token costs per task are theharder number to pin down, since they scale with context size and how muchparallel “sub-agent” work a task requires. Reports from 2025 put the averagecost of generating a full feature branch through an agentic workflow somewherebetween $50 and $200. At the extreme end, highly parallel workloads can spikefast, one widely cited example is Google's agents autonomously building aworking OS capable of running Doom, reportedly using 93 subagents and 339million input tokens for a single run. That specific figure comes from a singlereported case rather than something independently reproduced, worth treating asillustrative of the ceiling rather than a typical cost.
 
 Thereal story is what happens after generation. GitHub's own data shows AI coding tools helped teams ship featuresroughly 30% faster, but also saw a corresponding rise in PR review time. That'sthe productivity paradox in a sentence: code generation sped up faster than anorganization's capacity to verify it did. A number of engineering teams areresponding by budgeting for dedicated review capacity, sometimes describedinformally as “AI reliability engineers,” curating prompt libraries andevaluation sets rather than assuming agent output can go straight toproduction. The honest read on where the industry actually is right now:augmentation, not full replacement of human engineers.
 
 ## Strengths, Weaknesses, Opportunities, Threats
-
-
 
 ## What to Watch: Lock-In, Rate Limits, and Paywalls
 
