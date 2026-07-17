@@ -5,6 +5,11 @@ date: 2026-07-18
 topic: Platform Thinking
 tags:
   - EA
+  - TOGAF
+  - Zachman
+  - Gartner EA Framework
+  - EABO
+  - Agentic AI
 author: Santhosh Thiruchendru
 cover: /assets/posts/ea-foundation.png
 ---
