@@ -49,7 +49,7 @@ Token costs per task are the harder number to pin down, since they scale with co
 
 ## Strengths, Weaknesses, Opportunities, Threats
 
-![SWOT analysis of agentic coding platforms as of mid-2026](/assets/posts/agentic-platforms/swot.png)
+![SWOT analysis of agentic coding platforms as of mid-2026](/assets/posts/swot.png "SWOT analysis of agentic coding platforms as of mid-2026")
 
 ## What to Watch: Lock-In, Rate Limits, and Paywalls
 
