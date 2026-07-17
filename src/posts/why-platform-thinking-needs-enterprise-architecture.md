@@ -24,24 +24,14 @@ For a product or platform leader, EA matters because it's the layer above your r
 
 Good architecture, regardless of framework, tends to share a small set of recurring principles, and each one maps directly onto what makes a platform actually work.
 
-* **Business alignment first:**
+* **Business alignment first:** Architecture exists to serve business outcomes, not the other way around. A technically elegant design that doesn't map to a business capability is wasted effort.
+* **Reusability over duplication:** The pattern behind any strong data platform, one shared system instead of a separate build per team, is an architecture principle in action. Good architecture actively looks for what can be built once and reused, rather than rebuilt per team or per product.
+* **Loose coupling, clear contracts:** Components should depend on well-defined interfaces, not on each other's internal implementation, so each side can change independently without breaking the other. This is the exact principle that later makes a system safe for an AI agent to call.
+* **Single source of truth:** Master data should exist in one authoritative place, with everything else treating it as a read source rather than maintaining its own competing copy.
+* **Evolvability over perfection:** A good architecture assumes change is constant and is judged by how cheaply it absorbs that change, not by how complete it looked on day one.
+* **Governance with teeth:** Principles without enforcement become suggestions. Definition of Done gates, architectural review boards, and acceptance criteria are what make architecture real rather than aspirational.
 
-   Architecture exists to serve business outcomes, not the other way around. A technically elegant design that doesn't map to a business capability is wasted effort.
-* **Reusability over duplication:**
 
-   The pattern behind any strong data platform, one shared system instead of a separate build per team, is an architecture principle in action. Good architecture actively looks for what can be built once and reused, rather than rebuilt per team or per product.
-* **Loose coupling, clear contracts:**
-
-   Components should depend on well-defined interfaces, not on each other's internal implementation, so each side can change independently without breaking the other. This is the exact principle that later makes a system safe for an AI agent to call.
-* **Single source of truth:**
-
-   Master data should exist in one authoritative place, with everything else treating it as a read source rather than maintaining its own competing copy.
-* **Evolvability over perfection**
-
-  : A good architecture assumes change is constant and is judged by how cheaply it absorbs that change, not by how complete it looked on day one.
-* **Governance with teeth:**
-
-   Principles without enforcement become suggestions. Definition of Done gates, architectural review boards, and acceptance criteria are what make architecture real rather than aspirational.
 
 ## The Major Frameworks
 
@@ -61,6 +51,10 @@ Gartner's approach is less a rigid methodology and more a practice model centere
 
 EABOK, the Enterprise Architecture Body of Knowledge, was developed by the MITRE Corporation in the early 2000s to organize and characterize the knowledge content of the EA discipline (MITRE Corporation, 2004). It functions as a reference body of knowledge rather than a prescriptive method, closer in spirit to how PMBOK works for project management. The EABOK Consortium that maintained it ceased active operations in 2020, and the archive remains a widely cited historical and academic reference (EABOK Consortium, 2020).
 
+## Side-by-Side Comparison
+
+
+
 ## Which Framework Fits Which Industry
 
 Government and defense lean on TOGAF for its auditability across large, multi-agency programs, with EABOK showing up as a reference standard. Financial services and insurance follow the same pattern, often pairing TOGAF with Zachman to guarantee compliance artifacts aren't missing anything. Fast-moving tech and product-led companies tend to find full TOGAF too heavy, borrowing Gartner's business-outcome philosophy and applying a lightweight, pragmatic subset instead, governance and Definition of Done gates without a formal ADM cycle running underneath. Healthcare typically blends TOGAF for regulatory and interoperability requirements with Zachman layered on top, since the cost of missing a perspective in a patient safety context is unusually high. 
@@ -77,6 +71,10 @@ Most frameworks organize EA into the same four core layers, with a fifth increas
 * **Technology** **Architecture** - The underlying infrastructure, compute, storage, and networking everything else runs on.
 * **Security** **Architecture** - Increasingly a fifth layer rather than folded into technology, governing identity, access, and data protection across every other layer simultaneously.
 
+  **Single source of truth** becomes the difference between an agent acting on the real customer record and an agent confidently acting on a stale duplicate nobody remembered to deprecate.
+
+
+
 ## Why Platform Thinking Actually Needs This
 
 Platform engineering has moved from a niche practice to a mainstream expectation fast. Gartner projects that 80% of large software engineering organizations will establish dedicated platform teams by 2026, up from 45% in 2022 (Gartner, 2026). The vocabulary for how those teams organize, stream-aligned teams, platform teams, enabling teams, comes directly from Skelton and Pais's *Team Topologies* (Skelton & Pais, 2019), and the product platform teams build is usually called an Internal Developer Platform, or IDP, a self-service layer of APIs, tools, and golden paths that reduces cognitive load for every team building on top of it.
@@ -87,25 +85,14 @@ Platform thinking without architectural discipline behind it doesn't fail loudly
 
 ## The Path This Paves to Agentic AI
 
+This is where the stakes get higher, fast. Gartner projects that 40% of enterprise applications will embed task-specific AI agents by the end of 2026, up from under 5% in 2025 (Gartner, 2026). At the same time, Forrester and Anaconda's 2026 research found that 88% of agentic AI pilots never reach production, with governance friction and reliability sitting at the top of the blocker list (Forrester & Anaconda, 2026). A 2026 Alteryx survey of 1,400 global business and IT leaders found that 49% cite high-quality, well-governed data as the single biggest factor in whether agentic AI reaches its potential, while only 28% currently trust AI output enough to support real decisions (Alteryx, 2026). None of that is a model quality problem. It's an architecture problem wearing an AI costume. Every EA principle covered above turns out to be a literal prerequisite for a safe, working agent, not a metaphor for one:
+
+* **Single source of truth** becomes the difference between an agent acting on the real customer record and an agent confidently acting on a stale duplicate nobody remembered to deprecate.
+* **Loose coupling and clear contracts** become the actual interface an agent calls. Agents consume data and services programmatically, not through a dashboard a human can sanity check first, so the API contract has to be the guardrail.
+* **Governance with teeth** becomes AI governance specifically, approval thresholds, escalation paths, and audit trails encoded into the data and access layer itself, not a policy document nobody enforces. Currently only about 21% of organizations report having a mature AI governance model in place (Gartner, 2026), which tracks closely with why so many pilots stall out before production.
+* **Security architecture** becomes identity and access control for a non-human actor operating at machine speed, a meaningfully different threat model than access control built for people clicking through a UI.
+
 ![Figure 3: The Path This Paves to Agentic AI.](/assets/posts/3-path-to-agentic-ai.png "Figure 3: The Path This Paves to Agentic AI.")
-
-This is where the stakes get higher, fast. Gartner projects that 40% of enterprise applications will embed task-specific AI agents by the end of 2026, up from under 5% in 2025 (Gartner, 2026). At the same time, Forrester and Anaconda's 2026 research found that 88% of agentic AI pilots never reach production, with governance friction and reliability sitting at the top of the blocker list (Forrester & Anaconda, 2026). A 2026 Alteryx survey of 1,400 global business and IT leaders found that 49% cite high-quality, well-governed data as the single biggest factor in whether agentic AI reaches its potential, while only 28% currently trust AI output enough to support real decisions (Alteryx, 2026).None of that is a model quality problem. It's an architecture problem wearing an AI costume.Every EA principle covered above turns out to be a literal prerequisite for a safe, working agent, not a metaphor for one:
-
-* **Single source of truth**
-
-   
-
-  becomes the difference between an agent acting on the real customer record and an agent confidently acting on a stale duplicate nobody remembered to deprecate.
-* **Loose coupling and clear contracts**
-
-   become the actual interface an agent calls. Agents consume data and services programmatically, not through a dashboard a human can sanity check first, so the API contract has to be the guardrail.
-* **Governance with teeth**
-
-   becomes AI governance specifically, approval thresholds, escalation paths, and audit trails encoded into the data and access layer itself, not a policy document nobody enforces. Currently only about 21% of organizations report having a mature AI governance model in place (Gartner, 2026), which tracks closely with why so many pilots stall out before production.
-* **Security architecture**
-
-   becomes identity and access control for a non-human actor operating at machine speed, a meaningfully different threat model than access control built for people clicking through a UI.
-* The organizations that will adopt agentic AI cleanly aren't the ones with the most ambitious AI roadmap. They're the ones whose data, application, and security architecture were already disciplined enough that an autonomous system could be handed a scoped task without anyone holding their breath. Platform thinking, done well, is the rehearsal for exactly that.
 
 The organizations that will adopt agentic AI cleanly aren't the ones with the most ambitious AI roadmap. They're the ones whose data, application, and security architecture were already disciplined enough that an autonomous system could be handed a scoped task without anyone holding their breath. Platform thinking, done well, is the rehearsal for exactly that.
 
@@ -117,9 +104,9 @@ Match the framework's weight to your organization's actual regulatory and audit 
 
 ## The Core Takeaway
 
-You don't need to become a certified TOGAF architect to lead a platform well. You need enough fluency to recognize which framework's logic is shaping the decisions around you, to tell a genuinely aligned architecture from one that's technically impressive but directionless, and to ask the one question every framework ultimately exists to answer: does this architecture make the next change cheaper, or more expensive. Right now, for a growing number of organizations, the next change is an AI agent. Whether that goes well has already been decided by architectural choices made long before anyone mentioned AI out loud.
+You don't need to become a certified TOGAF architect to lead a platform well. You need enough fluency to recognize which framework's logic is shaping the decisions around you, to tell a genuinely aligned architecture from one that's technically impressive but directionless, and to ask the one question every framework ultimately exists to answer: does this architecture make the next change cheaper, or more expensive.
 
-
+Right now, for a growing number of organizations, the next change is an AI agent. Whether that goes well has already been decided by architectural choices made long before anyone mentioned AI out loud.
 
 # References
 
