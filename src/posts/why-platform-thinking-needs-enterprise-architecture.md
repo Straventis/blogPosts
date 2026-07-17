@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Why Platform Thinking Needs Enterprise Architecture
-date: 2026-07-17
+date: 2026-07-18
 topic: Platform Thinking
 tags:
   - EA
