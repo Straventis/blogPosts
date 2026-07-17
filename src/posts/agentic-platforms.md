@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: The Rise of Agentic Software Development Platforms
+title: -. The Rise of Agentic Software Development Platforms
 date: 2026-07-17
 topic: Artificial Intelligence
 tags:
@@ -83,7 +83,7 @@ For any team actually deciding whether to adopt one of these platforms, the usef
 
 That verification gap, the space between "the agent shipped it" and "the org can actually trust it," is the exact problem I've been digging into for a white paper coming next week. If the tension in this piece is one you're living with on your own team, keep an eye out, and follow along at [4rged.ai](https://4rged.ai) for the full breakdown when it's live.
 
-## ~~References~~
+## References
 
 1. Axis Intelligence. (2026). *GitHub Copilot statistics 2026: Users, revenue, market share & AI coding data.* Retrieved July 2026, from [`https://axis-intelligence.com/github-copilot-statistics/`](https://axis-intelligence.com/github-copilot-statistics/)
 2. Business Wire. (2025, November 13). *Cursor secures $2.3 billion Series D financing at $29.3 billion valuation to redefine how software is written.* Retrieved July 2026, from <https://www.businesswire.com/news/home/20251113939996/en>
