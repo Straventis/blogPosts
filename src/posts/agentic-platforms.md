@@ -8,7 +8,7 @@ tags:
   - Software Development
   - Industry News
 author: Santhosh Thiruchendru
-cover: /assets/posts/agentic-platform.png
+cover: /assets/posts/agentic-platforms/agentic-platform.png
 ---
 The software development landscape is going through a real architectural shift this year. The industry is moving past simple AI code completion tools, the "copilots", and converging on something bigger: autonomous "agentic" platforms that don't just suggest code, they run the whole loop themselves. As this scales, engineering workflows, cost structures, and enterprise risk are all moving with it.
 
@@ -18,7 +18,7 @@ The clearest way to think about it: a copilot completes code inside a file based
 
 By 2026, this space has settled into three recognizable shapes:
 
-![Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents](/assets/posts/archetypes.png "Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents")
+![Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents](/assets/posts/agentic-platforms/archetypes.png "Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents")
 
 * **CLI-first agents** (Claude Code, Codex CLI, OpenCode, Gemini CLI): live in the terminal, with deep control over builds, tests, and the shell itself
 * **IDE-native agents** (Cursor, Windsurf): embedded directly in the editor, optimized to keep a developer's flow intact across multiple files at once
@@ -26,7 +26,7 @@ By 2026, this space has settled into three recognizable shapes:
 
 Different surfaces, but the same underlying architecture underneath all three: repo memory (files that explain project conventions), tool use (Git, browsers, package managers), sub-agent orchestration (planning, coding, and testing agents working together), and long execution loops that let an agent iterate on a problem over minutes or hours.
 
-![architectural diagram-style illustration showing three distinct workspaces side by side, a terminal window, a code editor, and a cloud server rack, connected by thin structural lines like a blueprint.](/assets/posts/thethreearchetypes-.png "The 3 Archetypes")
+![architectural diagram-style illustration showing three distinct workspaces side by side, a terminal window, a code editor, and a cloud server rack, connected by thin structural lines like a blueprint.](/assets/posts/agentic-platforms/archetypes-alt.png "The 3 Archetypes")
 
 ## The Market, as of Mid-2026
 
@@ -51,7 +51,7 @@ Token costs per task are the harder number to pin down, since they scale with co
 
 ## Strengths, Weaknesses, Opportunities, Threats
 
-![SWOT analysis of agentic coding platforms as of mid-2026](/assets/posts/swot.png "SWOT analysis of agentic coding platforms as of mid-2026")
+![SWOT analysis of agentic coding platforms as of mid-2026](/assets/posts/agentic-platforms/swot.png "SWOT analysis of agentic coding platforms as of mid-2026")
 
 ## What to Watch: Lock-In, Rate Limits, and Paywalls
 
@@ -73,7 +73,7 @@ What it actually offers that closed platforms don't:
 * **Data sovereignty**: runs via a headless server that can be fully self-hosted, which matters directly for the security teams wary of sending proprietary code to a third party model provider
 * **Stack ownership**: a model that writes code is a commodity. A model that owns the deployment pipeline is a strategic asset. Open systems keep that pipeline owned by the engineering org, not the vendor.
 
-![,](/assets/posts/verificatinbottleneck.png "The Verification Bottleneck")
+![The verification bottleneck in agentic coding platforms](/assets/posts/agentic-platforms/verification-bottleneck.png "The Verification Bottleneck")
 
 ## Where This Leaves Things
 

@@ -22,9 +22,13 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("readableDateTime", function(dateObj) {
     const d = new Date(dateObj);
+    if (isNaN(d.getTime())) {
+      return "unavailable, check that _data/buildTime.js exists";
+    }
     return d.toLocaleString("en-US", {
       day: "numeric", month: "long", year: "numeric",
       hour: "numeric", minute: "2-digit", timeZoneName: "short",
+      timeZone: "America/New_York",
     });
   });
 
