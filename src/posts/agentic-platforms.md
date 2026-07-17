@@ -8,7 +8,7 @@ tags:
   - Software Development
   - Industry News
 author: Santhosh Thiruchendru
-cover: /assets/covers/agentic-platforms.jpg
+cover: /assets/posts/agentic-platform.png
 ---
 The software development landscape is going through a real architectural shift this year. The industry is moving past simple AI code completion tools, the "copilots", and converging on something bigger: autonomous "agentic" platforms that don't just suggest code, they run the whole loop themselves. As this scales, engineering workflows, cost structures, and enterprise risk are all moving with it.
 
@@ -49,7 +49,7 @@ Token costs per task are the harder number to pin down, since they scale with co
 
 ## Strengths, Weaknesses, Opportunities, Threats
 
-![SWOT analysis of agentic coding platforms as of mid-2026](/assets/posts/agentic-platforms/swot.png)
+![SWOT analysis of agentic coding platforms as of mid-2026](/assets/posts/swot.png "SWOT analysis of agentic coding platforms as of mid-2026")
 
 ## What to Watch: Lock-In, Rate Limits, and Paywalls
 
