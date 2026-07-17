@@ -73,6 +73,8 @@ What it actually offers that closed platforms don't:
 * **Data sovereignty**: runs via a headless server that can be fully self-hosted, which matters directly for the security teams wary of sending proprietary code to a third party model provider
 * **Stack ownership**: a model that writes code is a commodity. A model that owns the deployment pipeline is a strategic asset. Open systems keep that pipeline owned by the engineering org, not the vendor.
 
+![](/assets/posts/verificatinbottleneck.png "The Verification Bottleneck")
+
 ## Where This Leaves Things
 
 The shift from pair-programming to autonomous AI engineering teams is a genuinely significant moment in how software gets built. But the headline valuations, Cursor's climb toward a $60 billion acquisition chief among them, shouldn't be read as evidence that these tools are 1:1 replacements for engineers. They aren't yet, and the gap between "generates code fast" and "generates code an organization can trust in production" is exactly where most of the real work is happening right now.
