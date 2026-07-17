@@ -8,7 +8,7 @@ tags:
   - Software Development
   - Industry News
 author: Santhosh Thiruchendru
-cover: /assets/covers/agentic-platforms.jpg
+cover: /assets/posts/agentic-platform.png
 ---
 The software development landscape is going through a real architectural shift this year. The industry is moving past simple AI code completion tools, the "copilots", and converging on something bigger: autonomous "agentic" platforms that don't just suggest code, they run the whole loop themselves. As this scales, engineering workflows, cost structures, and enterprise risk are all moving with it.
 
