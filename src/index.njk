@@ -10,12 +10,15 @@ description: "Straventis Advisory Group blog"
 <div class="view-toggle">
   <button class="view-btn active" data-view="panel" type="button">Panel view</button>
   <button class="view-btn" data-view="list" type="button">List view</button>
+  <span class="toggle-divider"></span>
+  <button class="view-btn active" data-sort="desc" type="button">Newest first</button>
+  <button class="view-btn" data-sort="asc" type="button">Oldest first</button>
 </div>
 
 <div class="post-collection" id="post-collection" data-view="panel">
 
   {% for post in collections.posts %}
-  <a class="post-item" href="{{ post.url }}">
+  <a class="post-item" href="{{ post.url }}" data-date="{{ post.date | isoDate }}">
 
     <img class="post-cover" src="{{ post.data.cover }}" alt="{{ post.data.title }}">
 
@@ -38,7 +41,10 @@ description: "Straventis Advisory Group blog"
 
 <style>
   .view-toggle{
-    display:flex; gap:8px; margin-bottom:32px;
+    display:flex; gap:8px; margin-bottom:32px; align-items:center; flex-wrap:wrap;
+  }
+  .toggle-divider{
+    width:1px; height:20px; background:var(--line); margin:0 4px;
   }
   .view-btn{
     font-family:var(--mono); font-size:12px; text-transform:uppercase; letter-spacing:0.06em;
@@ -102,28 +108,48 @@ description: "Straventis Advisory Group blog"
 <script>
   (function(){
     var container = document.getElementById('post-collection');
-    var buttons = document.querySelectorAll('.view-btn');
+    var viewButtons = document.querySelectorAll('.view-btn[data-view]');
+    var sortButtons = document.querySelectorAll('.view-btn[data-sort]');
 
-    function getStored(){
-      try { return localStorage.getItem('straventis-blog-view'); } catch(e){ return null; }
+    function getStored(key){
+      try { return localStorage.getItem(key); } catch(e){ return null; }
     }
-    function setStored(val){
-      try { localStorage.setItem('straventis-blog-view', val); } catch(e){}
+    function setStored(key, val){
+      try { localStorage.setItem(key, val); } catch(e){}
     }
 
     function setView(view){
       container.setAttribute('data-view', view);
-      buttons.forEach(function(b){
+      viewButtons.forEach(function(b){
         b.classList.toggle('active', b.dataset.view === view);
       });
-      setStored(view);
+      setStored('straventis-blog-view', view);
     }
 
-    var stored = getStored();
-    if (stored) setView(stored);
+    function setSort(order){
+      var items = Array.prototype.slice.call(container.querySelectorAll('.post-item'));
+      items.sort(function(a, b){
+        var da = new Date(a.dataset.date), db = new Date(b.dataset.date);
+        return order === 'asc' ? da - db : db - da;
+      });
+      items.forEach(function(item){ container.appendChild(item); });
+      sortButtons.forEach(function(b){
+        b.classList.toggle('active', b.dataset.sort === order);
+      });
+      setStored('straventis-blog-sort', order);
+    }
 
-    buttons.forEach(function(btn){
+    var storedView = getStored('straventis-blog-view');
+    if (storedView) setView(storedView);
+
+    var storedSort = getStored('straventis-blog-sort') || 'desc';
+    setSort(storedSort);
+
+    viewButtons.forEach(function(btn){
       btn.addEventListener('click', function(){ setView(btn.dataset.view); });
+    });
+    sortButtons.forEach(function(btn){
+      btn.addEventListener('click', function(){ setSort(btn.dataset.sort); });
     });
   })();
 </script>

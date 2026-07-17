@@ -15,6 +15,19 @@ module.exports = function(eleventyConfig) {
     return d.toLocaleDateString("en-US", { day: "numeric", month: "long", year: "numeric" });
   });
 
+  eleventyConfig.addFilter("isoDate", function(dateObj) {
+    const d = new Date(dateObj);
+    return d.toISOString().slice(0, 10);
+  });
+
+  eleventyConfig.addFilter("readableDateTime", function(dateObj) {
+    const d = new Date(dateObj);
+    return d.toLocaleString("en-US", {
+      day: "numeric", month: "long", year: "numeric",
+      hour: "numeric", minute: "2-digit", timeZoneName: "short",
+    });
+  });
+
   eleventyConfig.addCollection("posts", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/posts/*.md").sort((a, b) => b.date - a.date);
   });
