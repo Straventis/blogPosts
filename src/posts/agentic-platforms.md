@@ -71,9 +71,9 @@ What it actually offers that closed platforms don't:
 
 * **Model agnosticism**: over 75 model providers supported, Anthropic, OpenAI, Google, GitHub Copilot passthrough, and local models, switch with a flag rather than a migration
 * **Data sovereignty**: runs via a headless server that can be fully self-hosted, which matters directly for the security teams wary of sending proprietary code to a third party model provider
-* **Stack ownership**: a model that writes code is a commodity. A model that owns the deployment pipeline is a strategic asset. Open systems keep that pipeline owned by the engineering org, not the vendor
+* **Stack ownership**: a model that writes code is a commodity. A model that owns the deployment pipeline is a strategic asset. Open systems keep that pipeline owned by the engineering org, not the vendor.
 
-![An editorial illustration of a wide, fast-moving river of small glowing code fragments flowing toward a narrow stone gate where a single human figure stands checking each piece before it passes through.](src/assets/posts/verificatinbottleneck.png "The Verification Bottleneck")
+![,](/assets/posts/verificatinbottleneck.png "The Verification Bottleneck")
 
 ## Where This Leaves Things
 
