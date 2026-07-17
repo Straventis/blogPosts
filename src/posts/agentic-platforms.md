@@ -26,7 +26,7 @@ By 2026, this space has settled into three recognizable shapes:
 
 Different surfaces, but the same underlying architecture underneath all three: repo memory (files that explain project conventions), tool use (Git, browsers, package managers), sub-agent orchestration (planning, coding, and testing agents working together), and long execution loops that let an agent iterate on a problem over minutes or hours.
 
-![Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents](/assets/posts/thethreearchetypes-.png "Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents")
+![architectural diagram-style illustration showing three distinct workspaces side by side, a terminal window, a code editor, and a cloud server rack, connected by thin structural lines like a blueprint.](/assets/posts/thethreearchetypes-.png "The 3 Archetypes")
 
 ## The Market, as of Mid-2026
 
@@ -73,7 +73,7 @@ What it actually offers that closed platforms don't:
 * **Data sovereignty**: runs via a headless server that can be fully self-hosted, which matters directly for the security teams wary of sending proprietary code to a third party model provider
 * **Stack ownership**: a model that writes code is a commodity. A model that owns the deployment pipeline is a strategic asset. Open systems keep that pipeline owned by the engineering org, not the vendor
 
-![](/assets/posts/verificatinbottleneck.png)
+![An editorial illustration of a wide, fast-moving river of small glowing code fragments flowing toward a narrow stone gate where a single human figure stands checking each piece before it passes through.](src/assets/posts/verificatinbottleneck.png "The Verification Bottleneck")
 
 ## Where This Leaves Things
 
