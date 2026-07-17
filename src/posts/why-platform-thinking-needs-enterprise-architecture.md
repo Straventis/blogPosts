@@ -103,3 +103,33 @@ This is where the stakes get higher, fast. Gartner projects that 40% of enterpri
 * **Security architecture**
 
    becomes identity and access control for a non-human actor operating at machine speed, a meaningfully different threat model than access control built for people clicking through a UI.
+* The organizations that will adopt agentic AI cleanly aren't the ones with the most ambitious AI roadmap. They're the ones whose data, application, and security architecture were already disciplined enough that an autonomous system could be handed a scoped task without anyone holding their breath. Platform thinking, done well, is the rehearsal for exactly that.
+
+The organizations that will adopt agentic AI cleanly aren't the ones with the most ambitious AI roadmap. They're the ones whose data, application, and security architecture were already disciplined enough that an autonomous system could be handed a scoped task without anyone holding their breath. Platform thinking, done well, is the rehearsal for exactly that.
+
+
+
+## Principles for Picking an Architecture or Framework
+
+Match the framework's weight to your organization's actual regulatory and audit burden. Pick based on who needs to be convinced, Gartner's business-outcome framing wins an executive room faster than a TOGAF artifact stack, while TOGAF or Zachman earns its overhead when the obstacle is technical completeness across regulated systems. Treat frameworks as a starting toolkit, not a rulebook, almost no real enterprise runs one exactly as written. And judge the choice by whether it's still followed eighteen months later, not by how good it looked in the kickoff deck. The most common EA failure mode isn't picking the wrong framework, it's picking one heavier than the organization has the discipline to sustain.
+
+## The Core Takeaway
+
+You don't need to become a certified TOGAF architect to lead a platform well. You need enough fluency to recognize which framework's logic is shaping the decisions around you, to tell a genuinely aligned architecture from one that's technically impressive but directionless, and to ask the one question every framework ultimately exists to answer: does this architecture make the next change cheaper, or more expensive. Right now, for a growing number of organizations, the next change is an AI agent. Whether that goes well has already been decided by architectural choices made long before anyone mentioned AI out loud.
+
+
+
+# References
+
+1. Figure 1: *An Organized and Clearly Architected City image generated using Nano Banana 2 in Google Gemini*  (Google, 2026). [An illustration of a city seen from above at dusk, roads, utility lines, and building foundations laid out in a clear, deliberate grid pattern, with a few structures still under construction connected by scaffolding. Warm stone and muted sage green color palette, soft golden hour lighting. Clean, minimal, architectural illustration style, like a modern city planning diagram, not photorealistic. No text, no readable signage, wide aspect ratio suitable.
+2. Figure 2: *Types of Enterprise Architecture i*mage generated using Nano Banana 2 in Google Gemini (Google, 2026). \[AI-generated image illustration of a building shown in five stacked horizontal layers, foundation, structural frame, utilities, interior systems, and a protective outer shell, each layer glowing faintly and distinguished only by simple geometric icons, no text.]  
+3. Figure 3: The Path This Paves to Agentic AI. *Note:* Image generated using Nano Banana 2 in Google Gemini (Google, 2026). Google. (2026). \[AI-generated image illustration of a single sturdy stone bridge extending from a well-organized city into a mist, where a small autonomous glowing orb of light travels across it unaccompanied, no human figure guiding it. Warm stone and muted sage green tones, soft atmospheric lighting, calm and architectural rather than dramatic or sci-fi. Minimal, clean, no text, no readable details.] \[AI-generated image]. Gemini. 
+4. Alteryx. (2026). *2026 state of agentic AI readiness survey.* Retrieved July 2026, from https://www.alteryx.com.
+5. EABOK Consortium. (2020). *Guide to the Enterprise Architecture Body of Knowledge.* MITRE. Retrieved July 2026, from https://eabok.org/
+6. Forrester,& Anaconda. (2026). *The state of agentic AI in production.* RetrievedJuly 2026, from <https://www.forrester.com>
+7. Gartner.(2026). *Unlock infrastructure efficiency with platform engineering.*Retrieved July 2026, from <https://www.gartner.com/en/infrastructure-and-it-operations-leaders/topics/platform-engineering>
+8. MITRECorporation. (2004). *Guide to the (evolving) Enterprise Architecture Body ofKnowledge.* Retrieved July 2026, from <https://www.mitre.org/news-insights/publication/guide-evolving-enterprise-architecture-body-knowledge>
+9. Skelton, M.,& Pais, M. (2019). *Team topologies: Organizing business and technologyteams for fast flow.* IT Revolution Press.
+10. The OpenGroup. (2018). *TOGAF Standard, version 9.2.* Retrieved July 2026, from <https://www.opengroup.org/togaf>
+11. Zachman, J.A. (1987). A framework for information systems architecture. *IBM SystemsJournal, 26*(3), 276–292.
+12.
