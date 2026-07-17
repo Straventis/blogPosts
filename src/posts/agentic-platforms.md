@@ -18,6 +18,8 @@ The clearest way to think about it: a copilot completes code inside a file based
 
 By 2026, this space has settled into three recognizable shapes:
 
+![Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents](/assets/posts/archetypes.png "Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents")
+
 * **CLI-first agents** (Claude Code, Codex CLI, OpenCode, Gemini CLI): live in the terminal, with deep control over builds, tests, and the shell itself
 * **IDE-native agents** (Cursor, Windsurf): embedded directly in the editor, optimized to keep a developer's flow intact across multiple files at once
 * **Cloud engineering agents** (Devin): run asynchronously, work gets fully delegated, the agent takes a ticket and opens a PR with no one watching in real time
@@ -70,6 +72,8 @@ What it actually offers that closed platforms don't:
 * **Model agnosticism**: over 75 model providers supported, Anthropic, OpenAI, Google, GitHub Copilot passthrough, and local models, switch with a flag rather than a migration
 * **Data sovereignty**: runs via a headless server that can be fully self-hosted, which matters directly for the security teams wary of sending proprietary code to a third party model provider
 * **Stack ownership**: a model that writes code is a commodity. A model that owns the deployment pipeline is a strategic asset. Open systems keep that pipeline owned by the engineering org, not the vendor
+
+![](/assets/posts/verificatinbottleneck.png)
 
 ## Where This Leaves Things
 
