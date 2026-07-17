@@ -1,13 +1,15 @@
 ---
 layout: post.njk
-title: "The Rise of Agentic Software Development Platforms"
+title: The Rise of Agentic Software Development Platforms
 date: 2026-07-17
-tags: ["AI", "Software Development", "Industry News"]
-topic: "Artificial Intelligence"
-author: "Santhosh Thiruchendru"
-cover: "/assets/covers/agentic-platforms.jpg"
+topic: Artificial Intelligence
+tags:
+  - AI
+  - Software Development
+  - Industry News
+author: Santhosh Thiruchendru
+cover: /assets/covers/agentic-platforms.jpg
 ---
-
 The software development landscape is going through a real architectural shift this year. The industry is moving past simple AI code completion tools, the "copilots", and converging on something bigger: autonomous "agentic" platforms that don't just suggest code, they run the whole loop themselves. As this scales, engineering workflows, cost structures, and enterprise risk are all moving with it.
 
 ## What Is an Agentic Software Development Platform?
@@ -16,13 +18,13 @@ The clearest way to think about it: a copilot completes code inside a file based
 
 By 2026, this space has settled into three recognizable shapes:
 
-- **CLI-first agents** (Claude Code, Codex CLI, OpenCode, Gemini CLI): live in the terminal, with deep control over builds, tests, and the shell itself
-- **IDE-native agents** (Cursor, Windsurf): embedded directly in the editor, optimized to keep a developer's flow intact across multiple files at once
-- **Cloud engineering agents** (Devin): run asynchronously, work gets fully delegated, the agent takes a ticket and opens a PR with no one watching in real time
+* **CLI-first agents** (Claude Code, Codex CLI, OpenCode, Gemini CLI): live in the terminal, with deep control over builds, tests, and the shell itself
+* **IDE-native agents** (Cursor, Windsurf): embedded directly in the editor, optimized to keep a developer's flow intact across multiple files at once
+* **Cloud engineering agents** (Devin): run asynchronously, work gets fully delegated, the agent takes a ticket and opens a PR with no one watching in real time
 
 Different surfaces, but the same underlying architecture underneath all three: repo memory (files that explain project conventions), tool use (Git, browsers, package managers), sub-agent orchestration (planning, coding, and testing agents working together), and long execution loops that let an agent iterate on a problem over minutes or hours.
 
-![Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents](/assets/posts/agentic-platforms/archetypes.png)
+![Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents](/assets/posts/thethreearchetypes-.png "Three archetypes of agentic coding platforms, CLI-first, IDE-native, and cloud engineering agents")
 
 ## The Market, as of Mid-2026
 
@@ -38,8 +40,8 @@ The growth here has genuinely outpaced most published research on it, worth upda
 
 Pricing for these tools spans a wide range depending on the harness and deployment model:
 
-- **Entry level and open source**: Gemini CLI and OpenCode offer free or open access, paying only for API usage. OpenAI's Codex "Go" tier starts at $8/month.
-- **Professional and enterprise tiers**: Claude Code and Cursor run roughly $20 to $100+/month depending on usage limits, with Cursor's top "Ultra" tier reaching $200/month. Devin runs $20 for its Pro tier up to $200 for Max.
+* **Entry level and open source**: Gemini CLI and OpenCode offer free or open access, paying only for API usage. OpenAI's Codex "Go" tier starts at $8/month.
+* **Professional and enterprise tiers**: Claude Code and Cursor run roughly $20 to $100+/month depending on usage limits, with Cursor's top "Ultra" tier reaching $200/month. Devin runs $20 for its Pro tier up to $200 for Max.
 
 Token costs per task are the harder number to pin down, since they scale with context size and how much parallel "sub-agent" work a task requires. Reports from 2025 put the average cost of generating a full feature branch through an agentic workflow somewhere between $50 and $200. At the extreme end, highly parallel workloads can spike fast, one widely cited example is Google's agents autonomously building a working OS capable of running Doom, reportedly using 93 subagents and 339 million input tokens for a single run. That specific figure comes from a single reported case rather than something independently reproduced, worth treating as illustrative of the ceiling rather than a typical cost.
 
@@ -65,9 +67,9 @@ Given that lock-in pattern, the open-source alternatives matter more than they m
 
 What it actually offers that closed platforms don't:
 
-- **Model agnosticism**: over 75 model providers supported, Anthropic, OpenAI, Google, GitHub Copilot passthrough, and local models, switch with a flag rather than a migration
-- **Data sovereignty**: runs via a headless server that can be fully self-hosted, which matters directly for the security teams wary of sending proprietary code to a third party model provider
-- **Stack ownership**: a model that writes code is a commodity. A model that owns the deployment pipeline is a strategic asset. Open systems keep that pipeline owned by the engineering org, not the vendor
+* **Model agnosticism**: over 75 model providers supported, Anthropic, OpenAI, Google, GitHub Copilot passthrough, and local models, switch with a flag rather than a migration
+* **Data sovereignty**: runs via a headless server that can be fully self-hosted, which matters directly for the security teams wary of sending proprietary code to a third party model provider
+* **Stack ownership**: a model that writes code is a commodity. A model that owns the deployment pipeline is a strategic asset. Open systems keep that pipeline owned by the engineering org, not the vendor
 
 ## Where This Leaves Things
 
