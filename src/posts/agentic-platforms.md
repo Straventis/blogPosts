@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: The Rise of Agentic Software Development Platforms
+title: -. The Rise of Agentic Software Development Platforms
 date: 2026-07-17
 topic: Artificial Intelligence
 tags:
