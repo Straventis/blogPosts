@@ -86,16 +86,8 @@ That verification gap, the space between "the agent shipped it" and "the org can
 ## References
 
 1. Axis Intelligence. (2026). *GitHub Copilot statistics 2026: Users, revenue, market share & AI coding data.* Retrieved July 2026, from [`https://axis-intelligence.com/github-copilot-statistics/`](https://axis-intelligence.com/github-copilot-statistics/)
-2. Business Wire. (2025, November 13). *Cursor secures $2.3 billion Series D financing at $29.3 billion valuation to redefine how software is written.* Retrieved July 2026, from [https://www.businesswire.com/news/home/20251113939996/en](<https://www.businesswire.com/news/home/20251113939996/en
-
-   https://www.businesswire.com/news/home/20251113939996/en
-
-   >)
-3. [Get Panto. (2026). ](<https://www.businesswire.com/news/home/20251113939996/en
-
-   https://www.businesswire.com/news/home/20251113939996/en
-
-   >)*OpenAI statistics 2026: Users, revenue & market share.* Retrieved July 2026, from <https://www.getpanto.ai/blog/openai-statistics>
+2. Business Wire. (2025, November 13). *Cursor secures $2.3 billion Series D financing at $29.3 billion valuation to redefine how software is written.* Retrieved July 2026, from https://www.businesswire.com/news/home/20251113939996/en
+3. Get Panto. (2026). *OpenAI statistics 2026: Users, revenue & market share.* Retrieved July 2026, from <https://www.getpanto.ai/blog/openai-statistics>
 4. Let's Data Science. (2026, April 21). *Cursor $2B funding round at $50B valuation.* Retrieved July 2026, from <https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation>
 5. Nerd Level Tech. (2026). *OpenCode: The open-source AI coding agent explained (2026).* Retrieved July 2026, from <https://nerdleveltech.com/opencode-open-source-ai-coding-agent-explained>
 6. OpenAI. (2026, June 25). *The shift to agentic AI: Evidence from Codex.* Retrieved July 2026, from <https://arxiv.org/html/2606.26959v1>
