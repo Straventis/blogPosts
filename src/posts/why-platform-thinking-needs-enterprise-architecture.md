@@ -31,8 +31,6 @@ Good architecture, regardless of framework, tends to share a small set of recurr
 * **Evolvability over perfection:** A good architecture assumes change is constant and is judged by how cheaply it absorbs that change, not by how complete it looked on day one.
 * **Governance with teeth:** Principles without enforcement become suggestions. Definition of Done gates, architectural review boards, and acceptance criteria are what make architecture real rather than aspirational.
 
-
-
 ## The Major Frameworks
 
 ### TOGAF
@@ -53,7 +51,7 @@ EABOK, the Enterprise Architecture Body of Knowledge, was developed by the MITRE
 
 ## Side-by-Side Comparison
 
-
+![EA Comparison](/assets/posts/ea-comparision.png "EA Comparison")
 
 ## Which Framework Fits Which Industry
 
@@ -72,8 +70,6 @@ Most frameworks organize EA into the same four core layers, with a fifth increas
 * **Security** **Architecture** - Increasingly a fifth layer rather than folded into technology, governing identity, access, and data protection across every other layer simultaneously.
 
   **Single source of truth** becomes the difference between an agent acting on the real customer record and an agent confidently acting on a stale duplicate nobody remembered to deprecate.
-
-
 
 ## Why Platform Thinking Actually Needs This
 
@@ -95,8 +91,6 @@ This is where the stakes get higher, fast. Gartner projects that 40% of enterpri
 ![Figure 3: The Path This Paves to Agentic AI.](/assets/posts/3-path-to-agentic-ai.png "Figure 3: The Path This Paves to Agentic AI.")
 
 The organizations that will adopt agentic AI cleanly aren't the ones with the most ambitious AI roadmap. They're the ones whose data, application, and security architecture were already disciplined enough that an autonomous system could be handed a scoped task without anyone holding their breath. Platform thinking, done well, is the rehearsal for exactly that.
-
-
 
 ## Principles for Picking an Architecture or Framework
 
@@ -121,4 +115,3 @@ Right now, for a growing number of organizations, the next change is an AI agent
 9. Skelton, M.,& Pais, M. (2019). *Team topologies: Organizing business and technologyteams for fast flow.* IT Revolution Press.
 10. The OpenGroup. (2018). *TOGAF Standard, version 9.2.* Retrieved July 2026, from <https://www.opengroup.org/togaf>
 11. Zachman, J.A. (1987). A framework for information systems architecture. *IBM SystemsJournal, 26*(3), 276–292.
-12.
