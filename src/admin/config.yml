@@ -4,7 +4,7 @@ backend:
   branch: main
   # TODO: replace with the real Cloudflare Worker URL once the OAuth proxy
   # task is complete. Decap CMS cannot log you in without this.
-  base_url:   https://straventis-cms-oauth.straventisadvisory.workers.dev
+  base_url: https://REPLACE-WITH-YOUR-WORKER-URL.workers.dev
   auth_endpoint: auth
 
 media_folder: "src/assets/posts"
@@ -20,6 +20,28 @@ collections:
     slug: "{{slug}}"
     extension: "md"
     format: "frontmatter"
+    media_folder: "../assets/posts/{{slug}}"
+    public_folder: "/assets/posts/{{slug}}"
+    summary: "{{title}} — {{fields.topic}} · {{date}}"
+    view_filters:
+      - label: "Artificial Intelligence"
+        field: topic
+        pattern: "Artificial Intelligence"
+      - label: "AI or ML"
+        field: topic
+        pattern: "AI or ML"
+      - label: "Platform Thinking"
+        field: topic
+        pattern: "Platform Thinking"
+      - label: "Career Reflection"
+        field: topic
+        pattern: "Career Reflection"
+    view_groups:
+      - label: "Topic"
+        field: topic
+      - label: "Year"
+        field: date
+        pattern: "\\d{4}"
     editor:
       preview: true
     fields:
