@@ -107,7 +107,7 @@ You don't need to become a certified TOGAF architect to lead a platform well. Yo
 
 Right now, for a growing number of organizations, the next change is an AI agent. Whether that goes well has already been decided by architectural choices made long before anyone mentioned AI out loud.
 
-# References
+# *References*
 
 1. Figure 1: *An Organized and Clearly Architected City image generated using Nano Banana 2 in Google Gemini*  (Google, 2026). [An illustration of a city seen from above at dusk, roads, utility lines, and building foundations laid out in a clear, deliberate grid pattern, with a few structures still under construction connected by scaffolding. Warm stone and muted sage green color palette, soft golden hour lighting. Clean, minimal, architectural illustration style, like a modern city planning diagram, not photorealistic. No text, no readable signage, wide aspect ratio suitable. https://gemini.google.com/
 2. Figure 2: *Types of Enterprise Architecture i*mage generated using Nano Banana 2 in Google Gemini (Google, 2026). \[AI-generated image illustration of a building shown in five stacked horizontal layers, foundation, structural frame, utilities, interior systems, and a protective outer shell, each layer glowing faintly and distinguished only by simple geometric icons, no text.]  https://gemini.google.com/
