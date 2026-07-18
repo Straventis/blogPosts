@@ -55,9 +55,9 @@ So the next time your strategy gets shot down by someone who clearly didn't read
 
 ## References
 
-1. Hunt, Inez Whitaker. "Nikola Tesla." *Encyclopedia Britannica*, 28 May 2026, https://www.britannica.com/biography/Nikola-Tesla. Accessed 18 July 2026.
-2. Smith, Roff. "Nikola Tesla's Struggle to Remain Relevant." *Smithsonian Magazine*, 25 Apr. 2026, https://www.smithsonianmag.com/travel/nikola-tesla-museum-belgrade-inventor-electricity-smithsonian-journeys-travel-quarterly-180958881/. Accessed 18 July 2026.
-3. Smith, Roff. "Nikola Tesla and the Tower That Became His 'Million Dollar Folly.'" *Smithsonian Magazine*, 24 Apr. 2024, https://www.smithsonianmag.com/history/nikola-tesla-tower-that-became-million-dollar-folly-11074324/. Accessed 18 July 2026.
+1. Hunt, Inez Whitaker. "Nikola Tesla." *Encyclopedia Britannica*, 28 May 2026, <https://www.britannica.com/biography/Nikola-Tesla>. Accessed 18 July 2026.
+2. Smith, Roff. "Nikola Tesla's Struggle to Remain Relevant." *Smithsonian Magazine*, 25 Apr. 2026, <https://www.smithsonianmag.com/travel/nikola-tesla-museum-belgrade-inventor-electricity-smithsonian-journeys-travel-quarterly-180958881/>. Accessed 18 July 2026.
+3. Smith, Roff. "Nikola Tesla and the Tower That Became His 'Million Dollar Folly.'" *Smithsonian Magazine*, 24 Apr. 2024, <https://www.smithsonianmag.com/history/nikola-tesla-tower-that-became-million-dollar-folly-11074324/>. Accessed 18 July 2026.
 4. Google. (2026). *A satirical, comic-style corporate illustration of Nikola Tesla presenting the Wardenclyffe Tower to disengaged executives* (Nano Banana 2) \[AI-generated image, Figure 1]. Gemini. https://gemini.google.com
 5. Google. (2026). *A heroic Nikola Tesla overlooking a modern metropolis illuminated by his alternating-current legacy, holding a glowing lightbulb at twilight* (Nano Banana 2) \[AI-generated image, Figure 2]. Gemini. https://gemini.google.com
 6. Google. (2026). *A satirical, cartoon-style illustration reimagining Nikola Tesla's career as corporate hell, featuring Edison, Westinghouse, Marconi, and J.P. Morgan* (Nano Banana 2) \[AI-generated image, Cover]. Gemini. https://gemini.google.com
