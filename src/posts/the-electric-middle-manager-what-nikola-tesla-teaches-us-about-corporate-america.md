@@ -35,7 +35,7 @@ Around that same time, an Italian inventor named Marconi sent a radio signal acr
 
 If your VP has ever killed your budget, only to greenlight the exact same idea six months later once another team pitched it, you already know precisely how this felt. Different century, same meeting.
 
-![Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives](/assets/posts/nikola-tesla/nikola-tesla-mid-tesla.png "Figure 1: The Boardroom Pitch")
+![Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives](/assets/posts/nikola-tesla/nikola-tesla-mid-article.png "Figure 1: The Boardroom Pitch")
 
 *Figure 1. Nikola Tesla pitches wireless power to a boardroom of modern executives who are, respectively, rejecting his budget, scrolling their phones, and asleep. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).*
 
