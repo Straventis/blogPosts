@@ -9,7 +9,7 @@ tags:
   - Nikola Tesla
   - Corporate
 author: Santhosh Thiruchendru
-cover: /assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-test-the-legacy.png
+cover: /assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-cover-image.png
 ---
 ### *If you think your job is a thankless grind, meet Nikola Tesla*
 
@@ -27,22 +27,15 @@ Tesla licensed his AC motor to George Westinghouse, and together they beat Ediso
 
 ## The budget cut heard around the world
 
-<div class="two-col">
-     <div class="left-col">
-             <p>Tesla eventually pitched the ultimate exec sponsor, J.P. Morgan, on wireless power for the entire planet. Morgan bit, handing over $150,000 to get it built. Tesla broke ground on a 186 foot tower out on Long Island, blew through the budget faster than planned, and went back asking for more.</p>
-              <p>Mr. Morgan said no. Worse, he reportedly made sure nobody else in banking would touch the project either. Dead in the water.</p>
-              <p>Around that same time, an Italian inventor named Marconi sent a radio signal across the Atlantic, using 17 of Tesla's own patents to pull it off. He walked away with the credit and the fortune while Tesla watched from the sidelines. It took until 1943, the same year Tesla died, for the U.S. Supreme Court to finally rule that Tesla, not Marconi, actually invented radio. He won the lawsuit and lost the timeline entirely, vindicated a little too late to enjoy it.</p>
-                <p>If your VP has ever killed your budget, only to greenlight the exact same idea six months later once another team pitched it, you already know precisely how this felt. Different century, same meeting..</p>
-        </div>
+![](/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-mid-artclie.png "Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives who are, respectively, rejecting his budget, scrolling their phones, and asleep. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).")
 
-   <div class="right-col">
-        <figure>
-                <img src="/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-mid-artclie.png" alt="Figure 1: The Boardroom Pitch">
-                <figcaption>Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives who are, respectively, rejecting his budget, scrolling their phones, and asleep. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).</figcaption>
-           </figure> 
-          </div>
+Tesla eventually pitched the ultimate exec sponsor, J.P. Morgan, on wireless power for the entire planet. Morgan bit, handing over $150,000 to get it built. Tesla broke ground on a 186 foot tower out on Long Island, blew through the budget faster than planned, and went back asking for more.
 
-</div>
+Mr. Morgan said no. Worse, he reportedly made sure nobody else in banking would touch the project either. Dead in the water.
+
+Around that same time, an Italian inventor named Marconi sent a radio signal across the Atlantic, using 17 of Tesla's own patents to pull it off. He walked away with the credit and the fortune while Tesla watched from the sidelines. It took until 1943, the same year Tesla died, for the U.S. Supreme Court to finally rule that Tesla, not Marconi, actually invented radio. He won the lawsuit and lost the timeline entirely, vindicated a little too late to enjoy it.
+
+If your VP has ever killed your budget, only to greenlight the exact same idea six months later once another team pitched it, you already know precisely how this felt. Different century, same meeting.
 
 ## Burnout, but make it 1930s
 
@@ -54,7 +47,7 @@ Near the end, Tesla's closest relationship on this earth was with a white pigeon
 
 So the next time your strategy gets shot down by someone who clearly didn't read past slide two, take a breath. You are not trying to beam electricity through the crust of the earth while your own investor quietly kills your reputation around town. And if it's a really bad day, there's always a park bench and a bag of birdseed. Tesla would understand completely.
 
-![](/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-cover-image.png)
+![](/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-test-the-legacy.png "Figure 2. Nikola Tesla looks out over a city entirely lit by his own invention, a quiet, triumphant close to a life spent underappreciated. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).")
 
 *Figure 2. Nikola Tesla looks out over a city entirely lit by his own invention, a quiet, triumphant close to a life spent underappreciated. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).*
 
