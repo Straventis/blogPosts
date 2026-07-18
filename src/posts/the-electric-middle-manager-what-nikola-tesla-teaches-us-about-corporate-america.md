@@ -25,29 +25,24 @@ Everybody's had a bad manager. Yours probably wasn't Thomas Edison. Tesla showed
 
 Tesla licensed his AC motor to George Westinghouse, and together they beat Edison in what's genuinely called the War of the Currents, a real historical event, not a metaphor. Years later, Westinghouse was drowning financially and asked Tesla to let him out of the royalty agreement. Tesla, because he actually trusted the guy, tore up the contract on the spot. That single piece of paper would have made him one of the richest men who ever lived, worth billions today. He just gave it away. I've seen people fight over who gets credit on a Jira ticket. Tesla tore up a path to being a billionaire because a friend asked nicely.
 
-The budget cut heard around the world
+## The budget cut heard around the world
 
-<div class="media-row">\
-     <div class="media-text">\
+<div class="two-col">
+     <div class="left-col">
              <p>Tesla eventually pitched the ultimate exec sponsor, J.P. Morgan, on wireless power for the entire planet. Morgan bit, handing over $150,000 to get it built. Tesla broke ground on a 186 foot tower out on Long Island, blew through the budget faster than planned, and went back asking for more.</p>
+              <p>Mr. Morgan said no. Worse, he reportedly made sure nobody else in banking would touch the project either. Dead in the water.</p>
+              <p>Around that same time, an Italian inventor named Marconi sent a radio signal across the Atlantic, using 17 of Tesla's own patents to pull it off. He walked away with the credit and the fortune while Tesla watched from the sidelines. It took until 1943, the same year Tesla died, for the U.S. Supreme Court to finally rule that Tesla, not Marconi, actually invented radio. He won the lawsuit and lost the timeline entirely, vindicated a little too late to enjoy it.</p>
+                <p>If your VP has ever killed your budget, only to greenlight the exact same idea six months later once another team pitched it, you already know precisely how this felt. Different century, same meeting..</p>
+        </div>
 
-\    <p>Mr. Morgan said no. Worse, he reportedly made sure nobody else in banking would touch the project either. Dead in the water.</p>
-
-\    <p>Around that same time, an Italian inventor named Marconi sent a radio signal across the Atlantic, using 17 of Tesla's own patents to pull it off. He walked away with the credit and the fortune while Tesla watched from the sidelines. It took until 1943, the same year Tesla died, for the U.S. Supreme Court to finally rule that Tesla, not Marconi, actually invented radio. He won the lawsuit and lost the timeline entirely, vindicated a little too late to enjoy it.</p>
-
-\    <p>If your VP has ever killed your budget, only to greenlight the exact same idea six months later once another team pitched it, you already know precisely how this felt. Different century, same meeting..</p>
-
-\
-        <figure>\
-                <img src="/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-mid-artclie.png" alt="Figure 1: The Boardroom Pitch">\
-                <figcaption>Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives who are, respectively, rejecting his budget, scrolling their phones, and asleep. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).</figcaption>\
-           </figure>
-
-\    </div>
+   <div class="right-col">
+        <figure>
+                <img src="/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-mid-artclie.png" alt="Figure 1: The Boardroom Pitch">
+                <figcaption>Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives who are, respectively, rejecting his budget, scrolling their phones, and asleep. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).</figcaption>
+           </figure> 
+          </div>
 
 </div>
-
-
 
 ## Burnout, but make it 1930s
 
