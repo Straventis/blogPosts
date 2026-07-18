@@ -25,7 +25,7 @@ wideLayout: true
 <p class="last-updated">Site last updated {{ buildTime | readableDateTime }}</p>
 
 {% if cover %}
-<img src="{{ cover }}" alt="{{ title }}" style="width:100%;max-height:320px;object-fit:cover;">
+<img src="{{ cover }}" alt="{{ title }}" style="width:100%;height:auto;border-radius:10px;">
 {% endif %}
 
 {{ content | safe }}
