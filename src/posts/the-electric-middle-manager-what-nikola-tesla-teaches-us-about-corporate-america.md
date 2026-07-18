@@ -25,6 +25,20 @@ Everybody's had a bad manager. Yours probably wasn't Thomas Edison. Tesla showed
 
 Tesla licensed his AC motor to George Westinghouse, and together they beat Edison in what's genuinely called the War of the Currents, a real historical event, not a metaphor. Years later, Westinghouse was drowning financially and asked Tesla to let him out of the royalty agreement. Tesla, because he actually trusted the guy, tore up the contract on the spot. That single piece of paper would have made him one of the richest men who ever lived, worth billions today. He just gave it away. I've seen people fight over who gets credit on a Jira ticket. Tesla tore up a path to being a billionaire because a friend asked nicely.
 
+<div class="media-row">
+
+  <img src="/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-mid-artclie.png" alt="Figure 1: The Boardroom Pitch">
+
+  <div class="media-text">
+
+\    <p>Your text goes here, sitting in the right column next to the image.</p>
+
+\    <p>Add more paragraphs if you want, they'll stack normally inside this column.</p>
+
+  </div>
+
+</div>
+
 ## The budget cut heard around the world
 
 Tesla eventually pitched the ultimate exec sponsor, J.P. Morgan, on wireless power for the entire planet. Morgan bit, handing over $150,000 to get it built. Tesla broke ground on a 186 foot tower out on Long Island, blew through the budget faster than planned, and went back asking for more.
