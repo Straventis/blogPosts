@@ -1,9 +1,28 @@
 ---
 layout: base.njk
+wideLayout: true
 ---
+<div class="reading-controls">
+  <div class="group">
+    <span class="group-label">Text size</span>
+    <button data-font="small" type="button">A</button>
+    <button data-font="default" class="active" type="button">A</button>
+    <button data-font="large" type="button">A</button>
+    <button data-font="xlarge" type="button">A</button>
+  </div>
+  <div class="group">
+    <span class="group-label">Width</span>
+    <button data-width="narrow" type="button">Narrow</button>
+    <button data-width="normal" class="active" type="button">Normal</button>
+    <button data-width="wide" type="button">Wide</button>
+  </div>
+</div>
+
+<div class="post-content">
 <p class="eyebrow">{{ topic }}</p>
 <h1 class="page-title">{{ title }}</h1>
 <p class="page-meta">{{ date | readableDate }} · {{ author }}{% if tags %} · {{ tags | join(", ") }}{% endif %}</p>
+<p class="last-updated">Site last updated {{ buildTime | readableDateTime }}</p>
 
 {% if cover %}
 <img src="{{ cover }}" alt="{{ title }}" style="width:100%;max-height:320px;object-fit:cover;">
@@ -12,3 +31,32 @@ layout: base.njk
 {{ content | safe }}
 
 <p style="margin-top:48px;"><a href="/">&larr; Back to all posts</a></p>
+</div>
+
+<script>
+  (function(){
+    var root = document.documentElement;
+    var fontButtons = document.querySelectorAll('[data-font]');
+    var widthButtons = document.querySelectorAll('[data-width]');
+
+    function getStored(key){ try { return localStorage.getItem(key); } catch(e){ return null; } }
+    function setStored(key, val){ try { localStorage.setItem(key, val); } catch(e){} }
+
+    function setFont(size){
+      root.setAttribute('data-font', size);
+      fontButtons.forEach(function(b){ b.classList.toggle('active', b.dataset.font === size); });
+      setStored('straventis-reading-font', size);
+    }
+    function setWidth(width){
+      root.setAttribute('data-width', width);
+      widthButtons.forEach(function(b){ b.classList.toggle('active', b.dataset.width === width); });
+      setStored('straventis-reading-width', width);
+    }
+
+    setFont(getStored('straventis-reading-font') || 'default');
+    setWidth(getStored('straventis-reading-width') || 'normal');
+
+    fontButtons.forEach(function(btn){ btn.addEventListener('click', function(){ setFont(btn.dataset.font); }); });
+    widthButtons.forEach(function(btn){ btn.addEventListener('click', function(){ setWidth(btn.dataset.width); }); });
+  })();
+</script>

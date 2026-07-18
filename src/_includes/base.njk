@@ -48,6 +48,7 @@
   :focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
 
   .wrap{ max-width:760px; margin:0 auto; padding:0 28px; }
+  .wrap.wrap-wide{ max-width:940px; }
 
   /* ---------- top bar ---------- */
   .topbar{ padding:28px 0; border-bottom:1px solid var(--line); }
@@ -88,11 +89,18 @@
   h1.page-title{
     font-family:var(--display); font-weight:600;
     font-size:clamp(30px, 5vw, 44px); line-height:1.1;
-    letter-spacing:-0.02em; margin:0 0 16px;
+    letter-spacing:-0.02em; margin:0 0 12px;
+  }
+  .page-subtitle{
+    font-size:16px; color:var(--ink-soft); margin:0 0 28px; max-width:520px;
   }
   .page-meta{
     font-family:var(--mono); font-size:12px; color:var(--ink-soft);
     margin:0 0 40px;
+  }
+  .last-updated{
+    font-family:var(--mono); font-size:11px; color:var(--ink-soft);
+    opacity:0.75; margin:0 0 28px;
   }
 
   main :is(h2, h3){
@@ -106,7 +114,64 @@
   main a{ color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
   main ul, main ol{ font-size:16px; line-height:1.7; margin:0 0 20px; padding-left:22px; }
   main li{ margin-bottom:8px; }
+  html[data-font="small"]{ --reading-font-size: 14px; --reading-line-height: 1.6; }
+  html[data-font="default"]{ --reading-font-size: 16px; --reading-line-height: 1.7; }
+  html[data-font="large"]{ --reading-font-size: 18px; --reading-line-height: 1.75; }
+  html[data-font="xlarge"]{ --reading-font-size: 21px; --reading-line-height: 1.8; }
+
+  html[data-width="narrow"]{ --reading-width: 560px; }
+  html[data-width="normal"]{ --reading-width: 700px; }
+  html[data-width="wide"]{ --reading-width: 880px; }
+
+  .post-content{
+    max-width: var(--reading-width, 700px);
+    margin: 0 auto;
+    transition: max-width 0.2s ease;
+  }
+  .post-content p{
+    font-size: var(--reading-font-size, 16px) !important;
+    line-height: var(--reading-line-height, 1.7) !important;
+  }
+  .post-content li{
+    font-size: var(--reading-font-size, 16px) !important;
+  }
+
+  .reading-controls{
+    display:flex; gap:20px; flex-wrap:wrap; align-items:center;
+    margin:0 0 32px; padding:14px 16px; border:1px solid var(--line);
+    border-radius:10px; background:var(--surface);
+  }
+  .reading-controls .group{ display:flex; gap:6px; align-items:center; }
+  .reading-controls .group-label{
+    font-family:var(--mono); font-size:10px; text-transform:uppercase;
+    letter-spacing:0.06em; color:var(--ink-soft); margin-right:4px;
+  }
+  .reading-controls button{
+    font-family:var(--mono); font-size:12px; padding:5px 11px;
+    border-radius:16px; border:1px solid var(--line); background:var(--bg);
+    color:var(--ink-soft); cursor:pointer;
+  }
+  .reading-controls button:hover{ border-color:var(--accent); color:var(--ink); }
+  .reading-controls button.active{
+    background:var(--accent); border-color:var(--accent); color:var(--bg);
+  }
+
   main img{ max-width:100%; border-radius:10px; margin:24px 0; display:block; }
+
+  .media-row{
+    display:flex; gap:28px; align-items:flex-start; margin:32px 0;
+  }
+  .media-row img{
+    width:42%; flex-shrink:0; margin:0; border-radius:10px;
+  }
+  .media-row .media-text{ flex:1; }
+  .media-row .media-text p{ margin:0 0 16px; font-size:16px; line-height:1.7; }
+  .media-row .media-text p:last-child{ margin-bottom:0; }
+
+  @media (max-width:640px){
+    .media-row{ flex-direction:column; }
+    .media-row img{ width:100%; }
+  }
   main blockquote{
     margin:24px 0; padding:4px 0 4px 20px; border-left:3px solid var(--accent);
     color:var(--ink-soft); font-style:italic;
@@ -155,7 +220,7 @@
 </div>
 
 <main>
-  <div class="wrap">
+  <div class="wrap{% if wideLayout %} wrap-wide{% endif %}">
     {{ content | safe }}
   </div>
 </main>
