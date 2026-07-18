@@ -45,15 +45,8 @@ Near the end, Tesla's closest relationship on this earth was with a white pigeon
 
 So the next time your strategy gets shot down by someone who clearly didn't read past slide two, take a breath. You are not trying to beam electricity through the crust of the earth while your own investor quietly kills your reputation around town. And if it's a really bad day, there's always a park bench and a bag of birdseed. Tesla would understand completely.
 
-
-
 ## Reference:
 
 1. Hunt, Inez Whitaker. "Nikola Tesla". Encyclopedia Britannica, 28 May, 2026, https://www.britannica.com/biography/Nikola-Tesla. Accessed 18 July 2026
 2. Smith, Roff. “Nikola Tesla’s Struggle to Remain Relevant.” *Smithsonian Magazine*, 25 Apr. 2026, www.smithsonianmag.com/travel/nikola-tesla-museum-belgrade-inventor-electricity-smithsonian-journeys-travel-quarterly-180958881/. Accessed 18 July 2026. 
-3. Smith, Roff. “Nikola Tesla and the Tower That Became His ‘Million Dollar Folly' .” *Smithsonian Magazine*, 24 Apr. 2024, https://www.smithsonianmag.com/history/nikola-tesla-tower-that-became-million-dollar-folly-11074324/. Accessed 18 July 2026. 
-
-
-
-
-4.
+3. Smith, Roff. “Nikola Tesla and the Tower That Became His ‘Million Dollar Folly' .” *Smithsonian Magazine*, 24 Apr. 2024, https://www.smithsonianmag.com/history/nikola-tesla-tower-that-became-million-dollar-folly-11074324/. Accessed 18 July 2026.
