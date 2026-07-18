@@ -49,7 +49,7 @@ Near the end, Tesla's closest relationship on this earth was with a white pigeon
 
 So the next time your strategy gets shot down by someone who clearly didn't read past slide two, take a breath. You are not trying to beam electricity through the crust of the earth while your own investor quietly kills your reputation around town. And if it's a really bad day, there's always a park bench and a bag of birdseed. Tesla would understand completely.
 
-![Figure 2: A triumphant Nikola Tesla overlooking a metropolis illuminated by his invention]((/assets/posts/nikola-tesla/nikola-tesla-the-legacy.png "Figure 2: The Legacy")
+![Figure 2: A triumphant Nikola Tesla overlooking a metropolis illuminated by his invention](/assets/posts/nikola-tesla/nikola-tesla-the-legacy.png "Figure 2: The Legacy")
 
 *Figure 2. Nikola Tesla looks out over a city entirely lit by his own invention, a quiet, triumphant close to a life spent underappreciated. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).*
 
