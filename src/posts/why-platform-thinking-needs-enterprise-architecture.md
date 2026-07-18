@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Why Platform Thinking Needs Enterprise Architecture
+title: Why Platform Thinking Needs Enterprise Architectur
 date: 2026-07-18
 topic: Platform Thinking
 tags:
@@ -56,7 +56,7 @@ EABOK, the Enterprise Architecture Body of Knowledge, was developed by the MITRE
 
 ## Side-by-Side Comparison
 
-![EA Comparison](/assets/posts/ea-foundation.png "EA Comparison")
+![EA Comparison]( "EA Comparison")
 
 ## Which Framework Fits Which Industry
 
@@ -64,7 +64,7 @@ Government and defense lean on TOGAF for its auditability across large, multi-ag
 
 ## Types of Enterprise Architecture
 
-![Figure 2: Types of Enterprise Architecture](/assets/posts/ea-foundation.png "Figure 2: Types of Enterprise Architecture")
+![Figure 2: Types of Enterprise Architecture]( "Figure 2: Types of Enterprise Architecture")
 
 Most frameworks organize EA into the same four core layers, with a fifth increasingly treated as its own discipline:
 
@@ -93,7 +93,7 @@ This is where the stakes get higher, fast. Gartner projects that 40% of enterpri
 * **Governance with teeth** becomes AI governance specifically, approval thresholds, escalation paths, and audit trails encoded into the data and access layer itself, not a policy document nobody enforces. Currently only about 21% of organizations report having a mature AI governance model in place (Gartner, 2026), which tracks closely with why so many pilots stall out before production.
 * **Security architecture** becomes identity and access control for a non-human actor operating at machine speed, a meaningfully different threat model than access control built for people clicking through a UI.
 
-![Figure 3: The Path This Paves to Agentic AI.](/assets/posts/ea-foundation.png "Figure 3: The Path This Paves to Agentic AI.")
+![Figure 3: The Path This Paves to Agentic AI.]( "Figure 3: The Path This Paves to Agentic AI.")
 
 The organizations that will adopt agentic AI cleanly aren't the ones with the most ambitious AI roadmap. They're the ones whose data, application, and security architecture were already disciplined enough that an autonomous system could be handed a scoped task without anyone holding their breath. Platform thinking, done well, is the rehearsal for exactly that.
 
