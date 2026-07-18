@@ -35,7 +35,7 @@ Around that same time, an Italian inventor named Marconi sent a radio signal acr
 
 If your VP has ever killed your budget, only to greenlight the exact same idea six months later once another team pitched it, you already know precisely how this felt. Different century, same meeting.
 
-![Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives](/assets/posts/nikola-tesla-mid-artclie.png "Figure 1: The Boardroom Pitch")
+![Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives]( "Figure 1: The Boardroom Pitch")
 
 *Figure 1. Nikola Tesla pitches wireless power to a boardroom of modern executives who are, respectively, rejecting his budget, scrolling their phones, and asleep. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).*
 
@@ -49,7 +49,7 @@ Near the end, Tesla's closest relationship on this earth was with a white pigeon
 
 So the next time your strategy gets shot down by someone who clearly didn't read past slide two, take a breath. You are not trying to beam electricity through the crust of the earth while your own investor quietly kills your reputation around town. And if it's a really bad day, there's always a park bench and a bag of birdseed. Tesla would understand completely.
 
-![Figure 2: A triumphant Nikola Tesla overlooking a metropolis illuminated by his invention](/assets/posts/nikola-test-the-legacy.png "Figure 2: The Legacy")
+![Figure 2: A triumphant Nikola Tesla overlooking a metropolis illuminated by his invention]( "Figure 2: The Legacy")
 
 *Figure 2. Nikola Tesla looks out over a city entirely lit by his own invention, a quiet, triumphant close to a life spent underappreciated. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).*
 
