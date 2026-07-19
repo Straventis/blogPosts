@@ -27,7 +27,9 @@ Tesla licensed his AC motor to George Westinghouse, and together they beat Ediso
 
 ## The budget cut heard around the world
 
-![](/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-mid-artclie.png "Figure 1: Nikola Tesla pitches wireless power to a boardroom of disengaged executives who are, respectively, rejecting his budget, scrolling their phones, and asleep. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).")
+![](/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-tesla-mid-artclie.png "Figure 2: Nikola Tesla pitches wireless power to a boardroom of disengaged executives who are, respectively, rejecting his budget, scrolling their phones, and asleep. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).")
+
+*Google. (2026). Figure 2: A satirical, comic-style corporate illustration of Nikola Tesla presenting the Wardenclyffe Tower to disengaged executives (Nano Banana 2) \[AI-generated image, Figure 2]. Gemini. https://gemini.google.com*
 
 Tesla eventually pitched the ultimate exec sponsor, J.P. Morgan, on wireless power for the entire planet. Morgan bit, handing over $150,000 to get it built. Tesla broke ground on a 186 foot tower out on Long Island, blew through the budget faster than planned, and went back asking for more.
 
@@ -47,15 +49,15 @@ Near the end, Tesla's closest relationship on this earth was with a white pigeon
 
 So the next time your strategy gets shot down by someone who clearly didn't read past slide two, take a breath. You are not trying to beam electricity through the crust of the earth while your own investor quietly kills your reputation around town. And if it's a really bad day, there's always a park bench and a bag of birdseed. Tesla would understand completely.
 
-![](/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-test-the-legacy.png "Figure 2. Nikola Tesla looks out over a city entirely lit by his own invention, a quiet, triumphant close to a life spent underappreciated. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).")
+![](/assets/posts/the-electric-middle-manager-what-nikola-tesla-teaches-us-about-corporate-america/nikola-test-the-legacy.png "Figure 3. Nikola Tesla looks out over a city entirely lit by his own invention, a quiet, triumphant close to a life spent underappreciated. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).")
 
-*Figure 2. Nikola Tesla looks out over a city entirely lit by his own invention, a quiet, triumphant close to a life spent underappreciated. Image generated using Google Gemini's Nano Banana 2 (Google, 2026).*
+*Figure 3: A heroic Nikola Tesla overlooking a modern metropolis illuminated by his alternating-current legacy, holding a glowing lightbulb at twilight (Nano Banana 2) \[AI-generated image, Figure 3]. Gemini. https://gemini.google.com*
 
 ## References
 
 1. Hunt, Inez Whitaker. "Nikola Tesla." *Encyclopedia Britannica*, 28 May 2026, <https://www.britannica.com/biography/Nikola-Tesla>. Accessed 18 July 2026.
 2. Smith, Roff. "Nikola Tesla's Struggle to Remain Relevant." *Smithsonian Magazine*, 25 Apr. 2026, <https://www.smithsonianmag.com/travel/nikola-tesla-museum-belgrade-inventor-electricity-smithsonian-journeys-travel-quarterly-180958881/>. Accessed 18 July 2026.
 3. Smith, Roff. "Nikola Tesla and the Tower That Became His 'Million Dollar Folly.'" *Smithsonian Magazine*, 24 Apr. 2024, <https://www.smithsonianmag.com/history/nikola-tesla-tower-that-became-million-dollar-folly-11074324/>. Accessed 18 July 2026.
-4. Google. (2026). *A satirical, comic-style corporate illustration of Nikola Tesla presenting the Wardenclyffe Tower to disengaged executives* (Nano Banana 2) \[AI-generated image, Figure 1]. Gemini. https://gemini.google.com
-5. Google. (2026). *A heroic Nikola Tesla overlooking a modern metropolis illuminated by his alternating-current legacy, holding a glowing lightbulb at twilight* (Nano Banana 2) \[AI-generated image, Figure 2]. Gemini. https://gemini.google.com
-6. Google. (2026). *A satirical, cartoon-style illustration reimagining Nikola Tesla's career as corporate hell, featuring Edison, Westinghouse, Marconi, and J.P. Morgan* (Nano Banana 2) \[AI-generated image, Cover]. Gemini. https://gemini.google.com
+4. Google. (2026). Figure 1: *A satirical, cartoon-style illustration reimagining Nikola Tesla's career as corporate hell, featuring Edison, Westinghouse, Marconi, and J.P. Morgan* (Nano Banana 2) \[AI-generated image, Cover]. Gemini. https://gemini.google.com
+5. Google. (2026). Figure 2: *A satirical, comic-style corporate illustration of Nikola Tesla presenting the Wardenclyffe Tower to disengaged executives* (Nano Banana 2) \[AI-generated image, Figure 2]. Gemini. https://gemini.google.com
+6. Google. (2026). Figure 3: *A heroic Nikola Tesla overlooking a modern metropolis illuminated by his alternating-current legacy, holding a glowing lightbulb at twilight* (Nano Banana 2) \[AI-generated image, Figure 3]. Gemini. https://gemini.google.com
